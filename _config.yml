@@ -1,0 +1,2 @@
+baseurl: 'watch'
+exclude: ['README.md']

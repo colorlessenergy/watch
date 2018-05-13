@@ -1,0 +1,81 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav__ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  list-style-type: none;
+  padding: 0;
+}
+
+.animate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.track {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+
+  margin-left: 10px;
+}
+
+.copy__ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  list-style-type: none;
+  padding: 0;
+}
+
+@media screen and (max-width: 960px) {
+  header {
+    flex-direction: column;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  .track {
+    width: 90%;
+    align-items: center;
+  }
+
+  .track__play,
+  .track__cover,
+  .track__title {
+    margin: 0 10px;
+  }
+
+  .copy {
+    width: 100%;
+  }
+
+  .copy__ul {
+    justify-content: center;
+  }
+
+  .copy__li {
+    margin: 0 10px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .block {
+    display: block;
+  }
+}
