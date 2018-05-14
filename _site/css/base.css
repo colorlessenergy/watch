@@ -9,12 +9,6 @@ html {
 }
 
 body {
-  background-color: #222;
-  background-image: url(../img/bg-md.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  
   color: #fff;
   font-family: arial, sans-serif;
   margin: 0;
