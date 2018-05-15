@@ -46,6 +46,27 @@
   position: relative;
 }
 
+.header__h1:before,
+.nav__a:before,
+.copy__a:before {
+  background-color: #fff;
+  content: '';
+
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+
+  width: 0%;
+  height: 3px;
+  transition: width 0.3s ease;
+}
+
+.header__h1:hover:before,
+.nav__a:hover:before,
+.copy__a:hover:before {
+  width: 90%;
+}
+
 .nav__a--border {
   border: 3px solid #fff;
   border-radius: 10px;
