@@ -1,2 +1,2 @@
 baseurl: 'watch'
-exclude: ['README.md']
+exclude: ['README.md', '.gitignore']
